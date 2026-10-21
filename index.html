@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Алексей Матюшевский — аналитик финтех-продуктов</title>
+  <meta name="description" content="Матюшевский Алексей Владиславович — аналитик финтех-продуктов, системный и финансовый аналитик. Двойной диплом Финансового университета и МГТУ им. Н. Э. Баумана.">
+  <meta property="og:title" content="Алексей Матюшевский — аналитик финтех-продуктов">
+  <meta property="og:description" content="Системный анализ, backend-разработка, бюджетирование и казначейство.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%232f6df6'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='26' fill='white'>АМ</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () { try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="logo" aria-label="На главную">АМ<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Компетенции</a>
+        <a href="#projects">Проекты</a>
+        <a href="#experience">Опыт</a>
+        <a href="#education">Образование</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Сменить тему">
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="navLinks">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Аналитик финтех-продуктов · Системный и финансовый аналитик</p>
+          <h1>Алексей<br>Матюшевский</h1>
+          <p class="lead">
+            Проектирую финансово-технологические решения: от&nbsp;требований и&nbsp;архитектуры
+            по&nbsp;Spec-Driven Development до&nbsp;backend-сервисов на&nbsp;Python и&nbsp;моделей
+            для&nbsp;корпоративного казначейства.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">Смотреть проекты</a>
+            <a class="btn" href="#contact">Связаться</a>
+          </div>
+        </div>
+        <aside class="card hero__card reveal" aria-label="Кратко обо мне">
+          <div class="term">
+            <div class="term__bar"><i></i><i></i><i></i><span>about.json</span></div>
+<pre><code>{
+  <b>"name"</b>: <s>"Матюшевский Алексей Владиславович"</s>,
+  <b>"role"</b>: <s>"Системный / финансовый аналитик"</s>,
+  <b>"course"</b>: <em>3</em>,
+  <b>"program"</b>: <s>"Цифровизация финансовых
+              продуктов и услуг"</s>,
+  <b>"universities"</b>: [
+    <s>"Финансовый университет"</s>,
+    <s>"МГТУ им. Н. Э. Баумана"</s>
+  ],
+  <b>"experience"</b>: <s>"Казначейство ПАО «ЛУКОЙЛ»"</s>,
+  <b>"stack"</b>: [<s>"Python"</s>, <s>"FastAPI"</s>, <s>"PostgreSQL"</s>]
+}</code></pre>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal"><span>01</span>Обо мне</h2>
+        <div class="about reveal">
+          <div>
+            <p>
+              Студент 3&nbsp;курса совместной программы Финансового университета при&nbsp;Правительстве РФ
+              и&nbsp;МГТУ им.&nbsp;Н.&nbsp;Э.&nbsp;Баумана «Цифровизация финансовых продуктов и&nbsp;услуг» —
+              два диплома: по&nbsp;экономике и&nbsp;по&nbsp;информационным системам и&nbsp;технологиям.
+            </p>
+            <p>
+              Специализируюсь на&nbsp;проектировании финтех-решений, автоматизации бюджетирования,
+              системном анализе и&nbsp;backend-разработке. Участвовал в&nbsp;научно-исследовательских
+              работах и&nbsp;ВТСК, проходил стажировку в&nbsp;корпоративном казначействе ПАО&nbsp;«ЛУКОЙЛ».
+            </p>
+          </div>
+          <ul class="facts">
+            <li><strong>3</strong><span>курс, двойной диплом</span></li>
+            <li><strong>3</strong><span>проекта в&nbsp;финтехе</span></li>
+            <li><strong>ЛУКОЙЛ</strong><span>стажировка в&nbsp;казначействе</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section__title reveal"><span>02</span>Ключевые компетенции</h2>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4a3 3 0 0 1 3 3V14"/></svg>
+            </div>
+            <h3>Системный и бизнес-анализ</h3>
+            <div class="tags"><span>TOGAF</span><span>Spec-Driven Development</span><span>IDEF0</span><span>DFD (Gane-Sarson)</span><span>ERD</span><span>Mermaid</span><span>Swagger / OpenAPI</span></div>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg>
+            </div>
+            <h3>Backend-разработка и БД</h3>
+            <div class="tags"><span>Python</span><span>FastAPI</span><span>SQLAlchemy</span><span>Flask</span><span>pandas</span><span>openpyxl</span><span>PostgreSQL</span><span>pgAdmin 4</span><span>C# / ASP.NET Core</span><span>HTML/CSS</span></div>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-7"/></svg>
+            </div>
+            <h3>Финансовый анализ и казначейство</h3>
+            <div class="tags"><span>План-факт анализ</span><span>Бюджетирование</span><span>RFP-тендеры</span><span>Кэш-пулинг</span><span>Показатели ликвидности</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title reveal"><span>03</span>Проекты</h2>
+        <div class="filters reveal" role="group" aria-label="Фильтр проектов">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">Все</button>
+          <button class="chip" data-filter="dev" aria-pressed="false">Разработка</button>
+          <button class="chip" data-filter="arch" aria-pressed="false">Системный анализ</button>
+          <button class="chip" data-filter="fin" aria-pressed="false">Финансы</button>
+        </div>
+
+        <div class="projects" id="projectGrid">
+          <!-- Проект 1 -->
+          <article class="card project reveal" data-cat="dev arch fin">
+            <div class="project__head">
+              <p class="meta">Системный аналитик / Backend-разработчик</p>
+              <h3>Модуль бюджетирования и&nbsp;план-факт анализа деятельности предприятия</h3>
+              <p>Структура базы данных и&nbsp;аналитический сервис для&nbsp;автоматизации корпоративного бюджетирования и&nbsp;оперативного контроля выполнения планов.</p>
+              <div class="tags"><span>Python</span><span>FastAPI</span><span>SQLAlchemy</span><span>pandas</span><span>openpyxl</span><span>PostgreSQL</span><span>Mermaid</span></div>
+            </div>
+            <ul class="bullets">
+              <li>Спроектирована ER-диаграмма и&nbsp;нормализованная схема БД в&nbsp;PostgreSQL для&nbsp;бюджетных статей и&nbsp;транзакционных данных.</li>
+              <li>Разработан REST API на&nbsp;FastAPI с&nbsp;ролевой моделью доступа (администраторы, аналитики).</li>
+              <li>Реализована автоматическая выгрузка отчётности и&nbsp;план-факт анализа в&nbsp;Excel (openpyxl, pandas).</li>
+              <li>Составлена полная архитектурная спецификация сервиса по&nbsp;методологии Spec-Driven Development.</li>
+            </ul>
+            <!-- Если есть репозиторий, раскомментируйте:
+            <div class="project__links"><a class="link" href="https://github.com/USERNAME/REPO" target="_blank" rel="noopener">GitHub →</a></div>
+            -->
+          </article>
+
+          <!-- Проект 2 -->
+          <article class="card project reveal" data-cat="fin">
+            <div class="project__head">
+              <p class="meta">Финансовый аналитик</p>
+              <h3>Модель оценки банковских тендеров (RFP) и&nbsp;управления ликвидностью</h3>
+              <p>Сравнительный анализ условий коммерческих банков (Сбербанк, Т-Банк, Газпромбанк, Альфа-Банк, ВТБ) в&nbsp;рамках тендерных процедур корпоративного казначейства.</p>
+              <div class="tags"><span>Excel</span><span>Python (pandas)</span><span>Теория игр</span><span>Многокритериальная оценка</span></div>
+            </div>
+            <ul class="bullets">
+              <li>Разработана скоринговая модель для&nbsp;ранжирования банковских предложений с&nbsp;учётом комиссионных структур и&nbsp;процентных ставок.</li>
+              <li>Рассчитан финансово-экономический эффект от&nbsp;кэш-пулинга для&nbsp;локальной и&nbsp;трансграничной ликвидности.</li>
+              <li>Сформирован аналитический отчёт с&nbsp;обоснованием выбора банков-партнёров.</li>
+            </ul>
+          </article>
+
+          <!-- Проект 3 -->
+          <article class="card project reveal" data-cat="arch">
+            <div class="project__head">
+              <p class="meta">Системный архитектор</p>
+              <h3>Проектирование и&nbsp;документирование архитектуры финтех-сервисов</h3>
+              <p>Формализация требований, применение TOGAF и&nbsp;сквозная проектная документация для&nbsp;программных продуктов финансового сектора.</p>
+              <div class="tags"><span>Mermaid</span><span>OpenAPI / Swagger</span><span>Git</span><span>IDEF0</span><span>DFD</span></div>
+            </div>
+            <ul class="bullets">
+              <li>Построены модели бизнес-процессов в&nbsp;нотациях IDEF0 и&nbsp;DFD для&nbsp;потоков данных финансового учёта.</li>
+              <li>Разработаны sequence-диаграммы Mermaid, отражающие взаимодействие клиентских приложений с&nbsp;сервером.</li>
+              <li>Описаны спецификации API, сократившие время согласования формата интеграций между сервисами.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title reveal"><span>04</span>Опыт</h2>
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <p class="meta">Июль 2026 — Август 2026 · Стажёр</p>
+            <h3>ПАО «ЛУКОЙЛ» — Корпоративное казначейство</h3>
+            <p class="sub">Отдел казначейских операций</p>
+            <ul class="bullets">
+              <li>Участие в&nbsp;процессах оперативного планирования и&nbsp;контроля ликвидности предприятия.</li>
+              <li>Анализ коммерческих условий банковских продуктов, трансграничных операций и&nbsp;агентских соглашений.</li>
+              <li>Подготовка аналитических материалов и&nbsp;расчётов для&nbsp;оптимизации движения денежных средств.</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <p class="meta">Научная деятельность</p>
+            <h3>НИР и&nbsp;ВТСК</h3>
+            <!-- Добавьте темы работ, руководителей, результаты и ссылки на публикации -->
+            <p>Участие в&nbsp;научно-исследовательских работах и&nbsp;ВТСК в&nbsp;рамках программы двойного диплома.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section__title reveal"><span>05</span>Образование</h2>
+        <article class="card edu reveal">
+          <div class="edu__head">
+            <div>
+              <p class="meta">2024 — 2028 · Бакалавриат · 3-й курс</p>
+              <h3>Финансовый университет при&nbsp;Правительстве РФ &amp; МГТУ им.&nbsp;Н.&nbsp;Э.&nbsp;Баумана</h3>
+              <p>Программа двух дипломов «Цифровизация финансовых продуктов и&nbsp;услуг» · Финансовый факультет / ИУ3 «Информационные системы и&nbsp;управление»</p>
+            </div>
+          </div>
+          <div class="edu__dirs">
+            <div><span class="code">38.03.01</span>Экономика</div>
+            <div><span class="code">09.03.02</span>Информационные системы и&nbsp;технологии</div>
+          </div>
+          <h4>Ключевые дисциплины</h4>
+          <div class="edu__cols">
+            <div>
+              <p class="col-title">IT и&nbsp;разработка</p>
+              <div class="tags"><span>Алгоритмы и структуры данных</span><span>Базы данных</span><span>Проектирование ПО</span><span>Разработка приложений на C#</span><span>Технологии машинного обучения</span><span>Моделирование информационных систем</span><span>Методы оптимизации</span></div>
+            </div>
+            <div>
+              <p class="col-title">Финансы и&nbsp;финтех</p>
+              <div class="tags"><span>Корпоративные финансы</span><span>Финансовые рынки</span><span>Децентрализованные финансы (DeFi)</span><span>Архитектура организации и финансовых экосистем</span><span>Управление финтех-проектами</span><span>Современные платёжные системы</span><span>Эконометрика</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact card reveal">
+          <h2>Давайте поработаем вместе</h2>
+          <p>Открыт к&nbsp;стажировкам и&nbsp;проектам в&nbsp;системном анализе, финтехе и&nbsp;корпоративных финансах.</p>
+          <div class="contact__links">
+            <a class="btn btn--primary" href="mailto:matyushevskiyav@gmail.com">matyushevskiyav@gmail.com</a>
+            <button class="btn" id="copyEmail" data-email="matyushevskiyav@gmail.com">Скопировать email</button>
+            <!-- Замените USERNAME на свои ники или удалите ненужные кнопки -->
+            <a class="btn" href="https://t.me/USERNAME" target="_blank" rel="noopener">Telegram</a>
+            <a class="btn" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year">2026</span> Алексей Матюшевский</div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
